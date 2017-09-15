@@ -1,0 +1,7 @@
+body {
+  background: linear-gradient(to left top, blue, green) fixed;
+}
+
+.top50 {
+    margin-top: 50px;
+}
