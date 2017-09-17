@@ -6,55 +6,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href='css/index.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
   </head>
-  <body>
-    <div class="container">
-      <div class="row top10">
-        <div class="col-md-3" id="profile">
-          <div class="row">
-            <img src="images/profile pic (2).jpg" height="200" width="200" style='border-radius:50%'/>
-            <h1>Eitan Prince</h1>
+  <body data-spy="scroll" data-target="#MainNavbar" data-offset-top="50">
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top" role="navigation" id="MainNavbar">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-brand">Eitan Prince</div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#profile-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#web-dev">Web Development</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#games">Video Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume/Github</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="profile-section">
+      <div class="top50">
+        <div class="row">
+          <div class="col-md-4">
+            <div align="center">
+              <img class="top80" src="images/snowboarding.png"/>
+            </div>
           </div>
-          <div class="row top120 icon">
-            <div class="col-md-8 col-md-offset-4">
-              <a href="WebGL/index.html" target="_blank"><img id="gameIcon" src="images/joystick.png"/></a>
-              <h2 align="left">Games</h2>
+          <div class="col-md-4">
+            <div align="center">
+              <img class="top50" src="images/profile pic (2).jpg" height="200" width="200" style='border-radius:50%'/>
+              <h1 style="color:white;">Eitan Prince</h1>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div align="center">
+              <img class="top80" src="images/karate.png"/>
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-md-offset-1">
-          <div class="row top300">
-            <div class="col-md-8">
-              <a href="https://www.courseloader.com" target="_blank"><img id="CourseLoaderIcon" src="images/clexampletop.png"/></a>
-              <h2 align="center">CourseLoader</h2>
+        <div class="row bottom50">
+          <div class="col-md-3 offset-md-1">
+            <div align="center">
+              <img class="top80" src="images/coding.png"/>
             </div>
           </div>
-        </div>
-        <div class="col-md-2 col-md-offset-1">
-          <div class="row top200">
-            <div class="col-md-8">
-              <a href="https://github.com/eprince1" target="_blank"><img id="GitHubIcon" src="images/github-logo.png"/></a>
-              <h2 align="center">Github</h2>
+          <div class="col-md-4">
+            <div align="center">
+              <img class="top80" src="images/exercise.png"/>
             </div>
           </div>
-        </div>
-        <div class="col-md-2">
-          <div class="row top80">
-            <div class="col-md-8">
-              <a href="LResume.pdf" target="_blank"><img id="ResumeIcon" src="images/list.png"/></a>
-              <h2 align="center">Resume</h2>
+          <div class="col-md-4 bottom50">
+            <div align="center">
+              <img class="top80" src="images/drums.png"/>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <div id="web-dev">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1 class="white">Web Development</h1>
+        </div>
+        <div class="row top50">
+          <div class="col-md-6">
+            <img src="images/clexampletop.png" width="500" height="300"/>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-inverse" style="background-color: #333; border-color: #333;">
+              <div class="card-block">
+                <h3 class="card-title" align="center">CourseLoader</h3>
+                <p class="card-text"><a style="text-decoration: none;" href="https://www.courseloader.com" target="_blank">CourseLoader</a> is a website I designed to help college
+                students easily create and manage their 4 year plan. I currently have over 150 users and growing!
+                </p>
+                <div class="row top30">
+                  <div class="col-md-3">
+                    <img src="images/javascript.png" height="128" width="128"/>
+                  </div>
+                  <div class="col-md-3 offset-md-1">
+                    <img src="images/ruby.png" height="128" width="128"/>
+                  </div>
+                  <div class="col-md-3 offset-md-1">
+                    <img src="images/rails.png" height="128" width="128"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row top50 bottom50">
+          <div class="col-md-6">
+            <div class="card card-inverse" style="background-color: #333; border-color: #333;">
+              <div class="card-block">
+                <h3 class="card-title" align="center">Safepacs</h3>
+                <p class="card-text">
+                  I created the homepage for a company called <a style="text-decoration: none;" href="http://safepacs.com" target="_blank">Safepacs</a> who handle medical cases and images online.
+                </p>
+                <div class="row top30">
+                  <div class="col-md-4 offset-md-2">
+                    <img src="images/html.png"/>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="images/css.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="bottom50-margin" src="images/safepacs.png" height="300" width="500" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="games">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1 class="white">Games</h1>
+        </div>
+        <div class="top50">
+          <div class="row bottom50-margin">
+            <div class="col-md-6">
+              <img src="images/unity.png" width="128" height="128"/>
+            </div>
+            <div class="col-md-6">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="resume">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1 class="white">Resume/Github</h1>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery.js"></script>
+      <!--  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>

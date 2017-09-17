@@ -1,17 +1,70 @@
 body {
-  background: linear-gradient(to left top, white, whitesmoke) fixed;
+  position: relative;
+}
+
+.white {
+  color: white;
+}
+
+#profile-section {
+  background: linear-gradient(to left top, #044B7F, teal) fixed;
+  padding-top:50px;
+  margin-top:-50px;
+}
+
+#web-dev {
+  background: linear-gradient(to left top, #610345, #E3B505) fixed;
+  padding-top:50px;
+  margin-top:-50px;
+}
+
+#games {
+  background: linear-gradient(to left, black, white) fixed;
+  padding-top:50px;
+  margin-top:-50px;
+}
+
+#resume {
+  background: linear-gradient(to left top, #044B7F, #E3B505) fixed;
+  padding-top:50px;
+  margin-top:-50px;
 }
 
 .top10 {
     margin-top: 10px;
 }
 
+.top30 {
+    margin-top: 30px;
+}
+
+.pad50 {
+    padding-top: 50px;
+}
+
+.bottom50 {
+  padding-bottom: 50px;
+}
+
+.bottom50-margin {
+  margin-bottom: 50px;
+}
+
 .top120 {
     margin-top: 120px;
 }
 
+.well {
+  background-color: whitesmoke;
+  border: 1px solid white;
+}
+
 .top80 {
   margin-top: 80px;
+}
+
+.top50 {
+  margin-top: 50px;
 }
 
 .top200 {
