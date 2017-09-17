@@ -6,6 +6,14 @@ body {
   color: white;
 }
 
+.blue {
+  color: blue;
+}
+
+.black {
+  color: black;
+}
+
 #profile-section {
   background: linear-gradient(to left top, #044B7F, teal) fixed;
   padding-top:50px;
@@ -22,6 +30,11 @@ body {
   background: linear-gradient(to left, black, white) fixed;
   padding-top:100px;
   margin-top:-100px;
+}
+
+.carousel-item {
+  height: 400px;
+  width: 600px;
 }
 
 #resume {
